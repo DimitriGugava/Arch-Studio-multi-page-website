@@ -1,0 +1,66 @@
+.footer_Main_Cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 443px;
+  flex-shrink: 0;
+  background: #eeeff4;
+  margin: 150px auto;
+}
+.arch_Footer_Icon {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
+  margin-top: -60px;
+}
+.footer_Page_Option_List_Box {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+  gap: 32px;
+}
+.footer_options {
+  color: #7d828f;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}
+.footer_Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 252px;
+  height: 72px;
+  flex-shrink: 0;
+  background: #1b1d23;
+  margin-top: 31px;
+  color: #fff;
+  text-align: right;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  border: none;
+}
+
+.footer_Button:hover {
+  background: #000;
+  cursor: pointer;
+}
+.footer_Button:active {
+  background: #1b1d23;
+  color: #fff;
+}
+
+.footer_Button_Arrow {
+  width: 24px;
+  height: 18px;
+}

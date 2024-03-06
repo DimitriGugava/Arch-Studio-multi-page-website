@@ -1,0 +1,21 @@
+.header_Main_Cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+.header_Content_Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 32px auto;
+  justify-content: space-between;
+  width: 311px;
+  height: 32.028px;
+  flex-shrink: 0;
+}
+.header_Text_Icon {
+}
+.header_Menu_Bar {
+}

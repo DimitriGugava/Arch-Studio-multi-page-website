@@ -1,6 +1,7 @@
 import "./footer.css";
 import footerArch from "../icon/footerArch.svg";
 import footerArrow from "../icon/footerArrow.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -9,12 +10,14 @@ const Footer = () => {
       <div className="footer_Page_Option_List_Box">
         <a className="footer_options">Portfolio</a>
         <a className="footer_options">About Us</a>
-        <a className="footer_options">Contact</a>
+        <Link className="footer_options" to="/contact">
+          Contact
+        </Link>
       </div>
-      <button className="footer_Button">
+      <Link className="footer_Button" to="/portfolio">
         See our Portfolio
         <img className="footer_Button_Arrow" src={footerArrow} />
-      </button>
+      </Link>
     </div>
   );
 };

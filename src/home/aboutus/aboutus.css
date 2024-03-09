@@ -1,0 +1,148 @@
+.about_Us_Box {
+  display: flex;
+  flex-direction: column;
+  margin: 31px auto;
+  width: 375px;
+  height: auto;
+}
+
+.about_Us_Header_Image {
+  width: 375px;
+  height: 240px;
+  flex-shrink: 0;
+}
+
+.about_Us_TeamDescr_Box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.about_Us_TeamDescr_Header {
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.2px;
+  width: 311px;
+}
+
+.about_Us_TeamDescr_SmallText {
+  width: 311px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.about_Us_Line {
+  width: 65px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #c8ccd8;
+  margin-top: 76px;
+}
+
+.aboutUs_OurHeritage_box {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 69px;
+}
+
+.aboutUs_OurHeritage_Header {
+  width: 311px;
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.714px;
+}
+
+.aboutUS_OurHeritage_SmallText {
+  margin-top: 22px;
+  width: 310px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  text-align: justify;
+}
+
+.about_Us_theLeaders_Box {
+  display: flex;
+  width: 311px;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-top: 122px;
+}
+
+.about_Us_theLeaders_Header_Text {
+  width: 311px;
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1.714px;
+}
+
+.about_Us_theLeaders_Profile_Box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.about_Us_theLeaders_Profile_Box_Image {
+  width: 311px;
+  height: 284px;
+  flex-shrink: 0;
+}
+
+.about_Us_TheLeaders_ProfileTextual_Box {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  width: 311px;
+  height: 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.about_Us_TheLeaders_ProfileTextual_Header {
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  width: 311px;
+}
+
+.about_Us_TheLeaders_ProfileTextual_SmallText {
+  width: 311px;
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  opacity: 0.75;
+}

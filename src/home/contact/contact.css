@@ -1,0 +1,217 @@
+.contact_Page_Cont {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 2000px;
+  margin: 14px auto;
+}
+
+.contact_Page_Image {
+  width: 375px;
+  height: 240px;
+  flex-shrink: 0;
+}
+
+.contact_Page_TellUs_Text_Box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact_Page_TellUs_Heading {
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.2px;
+  width: 311px;
+}
+
+.contact_Page_TellUs_Para {
+  width: 311px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  margin-top: 21px;
+}
+
+.conact_Page_Div {
+  width: 65px;
+  height: 1px;
+  background: #c8ccd8;
+  margin-top: 100px;
+}
+
+.contact_Page_Details_Box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 68px;
+}
+
+.contact_Page_Details_Box_Header {
+  width: 311px;
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.714px;
+}
+
+.contact_Page_Details_Box_OFfice_Box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.contact_Page_Details_Box_OFfice_Box_Header {
+  width: 311px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 194.444% */
+}
+
+.contact_Page_Details_Box_OFfice_Box_Mail {
+  width: 311px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
+.contact_Page_Details_Box_OFfice_Box_Adress {
+  width: 311px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
+.contact_Page_Details_Box_OFfice_Box_Phone {
+  width: 311px;
+  color: #60636d;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+}
+
+.concat_Page_Map_Textual_Box {
+  width: 190px;
+  color: #1b1d23;
+
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  margin-top: 43px;
+}
+.concat_Page_Map_Textual_Box:hover {
+  color: #f5a623;
+  cursor: pointer;
+}
+.concat_Page_Map_Textual_Box:active {
+  color: #aa7013;
+}
+.concat_Page_Map_Map_Box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 71px;
+}
+
+.concat_Page_Map_Map {
+  position: relative;
+  width: 375px;
+  height: 367px;
+  flex-shrink: 0;
+}
+
+.location {
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.location2 {
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  flex-shrink: 0;
+  margin: 100px 30px;
+}
+
+.contact_Page_Form_Box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.contact_Page_Form_Box_Header {
+  width: 311px;
+  color: #1b1d23;
+  font-family: "League Spartan";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 108.333% */
+  letter-spacing: -1.714px;
+}
+
+.contact_Page_Form {
+  width: 311px;
+  height: 44px;
+  flex-shrink: 0;
+  margin-top: 5px;
+  color: #000000;
+  font-family: "Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.312px;
+  border: none;
+
+  margin-top: 5px;
+}
+.contact_Page_Form:focus {
+  outline: none;
+}
+.form_Div {
+  width: 311px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #1b1d23;
+  margin-top: 5px;
+}
+
+.contact_Page_Form_Button {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  background-color: #1b1d23;
+  border: none;
+  margin: 0px 232px;
+}
+.contact_Page_Form_Button:hover {
+  background-color: #f5a623;
+  cursor: pointer;
+}
+.contact_Page_Form_Button:active {
+  background-color: #aa7013;
+}

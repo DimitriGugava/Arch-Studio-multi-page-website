@@ -1,0 +1,44 @@
+.allprojects_Container {
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 240px;
+  flex-shrink: 0;
+  margin: 87px auto;
+}
+.all_Project_Box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 311px;
+  height: 240px;
+  flex-shrink: 0;
+}
+.allProject_Image {
+  position: absolute;
+  width: 311px;
+  height: 240px;
+  flex-shrink: 0;
+  z-index: -1;
+}
+
+.allProject_Box_Textual_box {
+  margin: 153px 24px;
+}
+
+.allProject_Box_Header {
+  color: #fff;
+  font-family: "League Spartan";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.allProject_Box_Small_Text {
+  color: #fff;
+  font-family: "League Spartan";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
